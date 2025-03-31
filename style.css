@@ -104,10 +104,11 @@ img {
  */
  
 }
-@media (max-width: 768px) and (min-width: 290px){
+@media (max-width: 768px) and (min-width: 100px){
     body {
-        background-size: 600px;  /* Ensure background fully covers */
+        background-size: 1000px;  /* Ensure background fully covers */
         background-position: center center; /* Center background */
+        /* background-color: #3d8097; */
     }
 
     .card {
