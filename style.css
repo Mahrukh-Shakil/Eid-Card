@@ -16,10 +16,7 @@ body {
     font-weight: 10px;
     background-color: #165078; 
 }
-body .text p{
-    margin-left: 800px;
-    margin-top: 510px;
-}
+
 .card {
     width: 640px;
     height: 400px;
@@ -106,7 +103,6 @@ img {
 }
 @media (max-width: 768px) and (min-width: 100px){
     body {
-        background-image: none;
         /* background-size: 1000px;  /* Ensure background fully covers */
         /* background-position: center center; Center background */ 
     }
@@ -119,7 +115,7 @@ img {
 
     .outside,
     .inside {
-        width: 60%;
+        width: 48%;
         height: 80%;
     }
 
@@ -127,4 +123,5 @@ img {
         font-size: 8px;
    
     }
+ 
 }
