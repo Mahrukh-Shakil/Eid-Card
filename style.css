@@ -104,3 +104,26 @@ img {
  */
  
 }
+@media (max-width: 768px) {
+    body {
+        background-size: cover;  /* Ensure background fully covers */
+        background-position: center center; /* Center background */
+    }
+
+    .card {
+        width: 90vw; /* Adjust width */
+        height: 60vh; /* Adjust height */
+        flex-direction: row; /* Keep side-by-side layout */
+    }
+
+    .outside,
+    .inside {
+        width: 50%;
+        height: 100%;
+    }
+
+    .inside {
+        font-size: 10px;
+        padding: 15px;
+    }
+}
