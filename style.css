@@ -106,25 +106,25 @@ img {
 }
 @media (max-width: 768px) and (min-width: 100px){
     body {
-        background-size: 1000px;  /* Ensure background fully covers */
-        background-position: center center; /* Center background */
-        /* background-color: #3d8097; */
+        background-image: none;
+        /* background-size: 1000px;  /* Ensure background fully covers */
+        /* background-position: center center; Center background */ 
     }
 
     .card {
-        width: 95vw; /* Adjust width */
-        height: 40vh; /* Adjust height */
+        width: 100vw; /* Adjust width */
+        height: 50vh; /* Adjust height */
         flex-direction: row; /* Keep side-by-side layout */
     }
 
     .outside,
     .inside {
-        width: 50%;
-        height: 90%;
+        width: 60%;
+        height: 80%;
     }
 
     .inside {
-        font-size: 7.9px;
+        font-size: 8px;
    
     }
 }
