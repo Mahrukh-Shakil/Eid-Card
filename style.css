@@ -111,12 +111,13 @@ img {
         width: 100vw; /* Adjust width */
         height: 50vh; /* Adjust height */
         flex-direction: row; /* Keep side-by-side layout */
+        margin-right: 40px;
     }
 
     .outside,
     .inside {
-        width: 48%;
-        height: 80%;
+        width: 60%;
+        height: 110%;
     }
 
     .inside {
